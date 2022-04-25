@@ -1,0 +1,17 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: user-ws
+  datasource:
+    url: jdbc:mysql://localhost:3306/hr
+    password: root
+    username: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  security:
+    user:
+      name: admin
+      password: admin
